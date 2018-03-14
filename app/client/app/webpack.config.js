@@ -45,9 +45,9 @@ module.exports = {
         options: {
           loaders: {
             // 'scss': 'vue-style-loader!css-loader!sass-loader',
-            'scss': 'vue-style-loader!css-loader!sass-loader&data=@import "./src/assets/sass/main.sass"',
+            //'scss': 'vue-style-loader!css-loader!sass-loader&data=@import "./src/assets/sass/main.sass"',
             // 'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax=1',
-            'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax=1&data=@import "./src/assets/sass/main.sass"'
+            //'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax=1&data=@import "./src/assets/sass/main.sass"'
           }
           // other vue-loader options go here
         }

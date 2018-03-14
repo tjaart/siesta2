@@ -4,9 +4,10 @@ import Router from 'vue-router'
 import Navbar from './components/Navbar'
 import SubNavbar from './components/SubNavbar'
 
-import PageOne from './views/PageOne'
-import PageTwo from './views/PageTwo'
+import History from './views/History'
+import Dashboard from './views/Dashboard'
 import Login from './views/Login'
+import TeamCalendar from './views/TeamCalendar'
 
 Vue.use(Router)
 
@@ -19,19 +20,27 @@ export default new Router({
       }
     },
     {
-      path: '/one',
+      path: '/dashboard',
       components: {
-        navbar: Navbar,
+
         subnavbar: SubNavbar,
-        main: PageOne
+        main: Dashboard
       }
     },
     {
-      path: '/two',
+      path: '/history',
       components: {
-        navbar: Navbar,
+
         subnavbar: SubNavbar,
-        main: PageTwo
+        main: History
+      }
+    },
+          {
+      path: '/team-calendar',
+      components: {
+
+        subnavbar: SubNavbar,
+        main: TeamCalendar
       }
     }
   ]

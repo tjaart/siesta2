@@ -7,7 +7,7 @@
     </div>
     <div class="level">
       <div class="level-item has-text-centered">
-        <router-link tag="a" :to="{ path: 'one'}" class="button">Login</router-link>
+        <router-link tag="a" :to="{ path: 'dashboard'}" class="button">Login</router-link>
       </div>
   </div>
 </section>
@@ -28,12 +28,6 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-
-.login-logo
-  margin-top: 200px
-
-  img
-    height: 150px
+<style lang="css" scoped>
 
 </style>
