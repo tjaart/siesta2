@@ -1,23 +1,4 @@
-# Flask-Vue-Template
-
-A project template for a Flask-Vue.js Web Application
-
-Note: PRs, comments and suggestions are welcome.
-
-## Motivation
-
-I have been using Flask for a while and I recently started using Vue.js.
-I wanted to continue using Python as a Backend while migrating all frontend logic to VueJs.
-
-## Application Structure
-
-
-The template is a Flask application with with two blueprints:
-
-1. Api App: Blueprint uses FlaskRestful to serve resources at the `/api` url endpoint.
-2. Client App: Minimal Blueprint used only to serve a single-page Vue.js App at the root endpoint `/`
-
-
+# Siesta
 #### Vue.js Structure (Client App)
 
 The Vue.js application is served by the Client App Blueprint.
